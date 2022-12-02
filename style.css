@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(84, 84, 163);
+    color: white;
+}
+
+.d{
+    background-color: red;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+html{
+    text-align: center;
+    font-size: 18px;
+}
+
+.word{
+    font-size: 5px;
+    writing-mode: horizontal-tb;
+}
+
+.countdown-day{
+    font-size: 30px;
+}
+
+.countdown-hour{
+    font-size: 30px;
+}
+
+.countdown-min{
+    font-size: 30px;
+}
+
+.countdown-sec{
+    font-size: 30px;
+}
+
+@media screen and (min-width:850px) {
+    html{
+    text-align: center;
+    font-size: 40px;
+}
+
+.word{
+    font-size: 20px;
+    writing-mode: horizontal-tb;
+}
+
+.countdown-day{
+    font-size: 100px;
+}
+
+.countdown-hour{
+    font-size: 100px;
+}
+
+.countdown-min{
+    font-size: 100px;
+}
+
+.countdown-sec{
+    font-size: 100px;
+}
+}
